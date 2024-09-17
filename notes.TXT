@@ -1,4 +1,18 @@
 Salutation,
+
+pour le script python n'oubliez pas d'installer les dépendances : 
+avec la commande  "pip install XXXX"
+import psutil
+import pymem
+import struct
+import ctypes
+import ctypes.wintypes
+from ctypes import windll, Structure, c_uint, c_uint64, sizeof, byref
+from ctypes.wintypes import DWORD, HANDLE, BOOL
+import tkinter as tk
+import threading
+
+
 Au lancement il faut patienter car le programme 
 recherche une adresse mémoire sur le processus
 "eldenring.exe"
